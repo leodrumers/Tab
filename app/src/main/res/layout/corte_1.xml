@@ -5,7 +5,7 @@
 
 
     <Button
-        android:id="@+id/btn_corte1"
+        android:id="@+id/btn_corte"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -16,7 +16,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btn_corte1"
+        android:layout_below="@+id/btn_corte"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="130dp"
         android:text="Notas Corte 1" />

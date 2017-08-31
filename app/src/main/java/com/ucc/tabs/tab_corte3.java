@@ -16,19 +16,19 @@ import android.widget.Toast;
 public class tab_corte3 extends Fragment {
     private static final String TAG = "tab_corte3";
 
-    private Button btn_corte3;
+    private Button btn_corte;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.corte_3,container,false);
 
-        btn_corte3 = (Button) view.findViewById(R.id.btn_corte1);
+        btn_corte = (Button) view.findViewById(R.id.btn_corte);
 
-        btn_corte3.setOnClickListener(new View.OnClickListener(){
+        btn_corte.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(), "TESTING BUTTON CLICK 3",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Boton del Corte 3",Toast.LENGTH_SHORT).show();
             }
         });
 
