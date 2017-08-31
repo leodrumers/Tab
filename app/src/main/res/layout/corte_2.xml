@@ -3,21 +3,20 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <Button
-        android:id="@+id/btn_corte1"
+        android:id="@+id/btn_corte2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:text="Corte 1" />
+        android:text="Corte 2" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btn_corte1"
+        android:layout_below="@+id/btn_corte2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="130dp"
-        android:text="Notas Corte 1" />
+        android:layout_marginTop="140dp"
+        android:text="Notas corte 2" />
 </RelativeLayout>

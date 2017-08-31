@@ -17,14 +17,16 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.SectionIndexer;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    /**
-     * The {@link ViewPager} that will host the section contents.
-     */
-    private ViewPager mViewPager;
+    private static final String TAG = "MainActivity";
+
+    private SectionsPageAdapter mSectionsPageAdapter;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
