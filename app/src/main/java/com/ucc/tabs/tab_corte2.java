@@ -28,7 +28,7 @@ public class tab_corte2 extends Fragment {
         btn_corte.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(), "TESTING BUTTON CLICK 2",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Boton corte 2",Toast.LENGTH_SHORT).show();
             }
         });
 
